@@ -32,7 +32,7 @@ function mintNFT (_name,_uid,_university,_subject,_marks) {
 
 // create a "loop" that will go through an "array" of NFT's
 // and print their metadata with console.log()
-function listvar () {
+function listNFT () {
     for(i=0; i < newvar.length; i++)
     {
     console.log("Name:   \t" + newvar[i].name);
@@ -57,6 +57,8 @@ function datastu() {
 // call your functions below this line
 mintNFT("Abhi","23BCS16754","Chandigarh University","Computer Science","98\n");
 mintNFT("Jack","23BCS15794","Chandigarh University","AIML","95");
-listvar();
+listNFT();
 datastu();
+
+
 
